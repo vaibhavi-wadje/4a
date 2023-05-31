@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    
+    <div data-role="navbar" data-grid="c">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="department.html">Department</a></li>
+           <li><a href="contact.html">contact</a></li>
+        </ul>
+        <div>
+            <ul class="items"data-role="listview" data-inset="true">
+                <li><a href="#cs.html">computer Engineering</a></li>
+                <br><br><br><br>
+                <li><a href="#it.html">Information Technology Engineering</a></li>
+                <br><br><br><br>
+                <li><a href="#entc.html">Electronics and Telecommunication Engineering</a></li>
+                <br><br><br><br>
+                <li><a href="#mech.html">Mechanical Engineering</a></li>
+                <br><br><br><br>
+                <li><a href="#chem.html">Chemical Engineering</a></li>
+                <br><br><br><br>
+            </ul>
+        </div>
+        <div data-role="footer">
+            <center>
+            <h3>Quick Access</h3>
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Department">Department</a>
+            <a href="#contact">contact</a>
+        </center>
+        </div>
+        <script>
+            $(".items").listview({
+                icon: "arrow-r",
+                            });
+        </script>
+</body>
+</html>
